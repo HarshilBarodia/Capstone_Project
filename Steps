@@ -1,0 +1,16 @@
+## Step 1
+
+# Install dependencies
+npm install
+
+# Start server
+node server.js
+
+
+## Step 2 - API runs on port 8081
+
+1. GET /  
+--> returns "Hello World"
+2. GET /load 
+--> query params: scale -> time(ms) for which CPU will be blocked (default=random between 0ms to 10ms)
+--> returns "OK" after execution
